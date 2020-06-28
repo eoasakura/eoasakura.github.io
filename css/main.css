@@ -1529,6 +1529,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 80px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    filter:invert();
 }
 
 
@@ -3324,6 +3325,7 @@ footer a:hover, footer a:focus {
 .footer-site-logo {
     display: block;
     width: 130px;
+    filter:invert();
 }
 
 .footer-social {
